@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - Student Result Management System</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Student Result Management System</h1>
+        <nav>
+            <ul>
+                <li><a href="dashboard.html">Dashboard</a></li>
+                <li><a href="students.html">Students</a></li>
+                <li><a href="results.html">Results</a></li>
+                <li><a href="reports.html">Reports</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Dashboard Overview</h2>
+            <div id="key-metrics">
+                <div class="metric">
+                    <h3>Total Students</h3>
+                    <p id="total-students">0</p>
+                </div>
+                <div class="metric">
+                    <h3>Average Grade</h3>
+                    <p id="average-grade">N/A</p>
+                </div>
+                <div class="metric">
+                    <h3>Top Performer</h3>
+                    <p id="top-performer">N/A</p>
+                </div>
+            </div>
+        </section>
+        <section>
+            <h2>Recent Results</h2>
+            <table id="recent-results">
+                <thead>
+                    <tr>
+                        <th>Student Name</th>
+                        <th>Grade</th>
+                        <th>Date</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Recent results will be populated here -->
+                </tbody>
+            </table>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Student Result Management System</p>
+    </footer>
+    <script src="../js/app.js"></script>
+</body>
+</html>

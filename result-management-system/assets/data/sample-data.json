@@ -1,0 +1,73 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "age": 20,
+      "gender": "Male",
+      "results": [
+        {
+          "subject": "Mathematics",
+          "grade": "A",
+          "score": 95
+        },
+        {
+          "subject": "Science",
+          "grade": "B",
+          "score": 85
+        },
+        {
+          "subject": "English",
+          "grade": "A",
+          "score": 90
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "age": 22,
+      "gender": "Female",
+      "results": [
+        {
+          "subject": "Mathematics",
+          "grade": "B",
+          "score": 80
+        },
+        {
+          "subject": "Science",
+          "grade": "A",
+          "score": 92
+        },
+        {
+          "subject": "English",
+          "grade": "A",
+          "score": 88
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Alice Johnson",
+      "age": 21,
+      "gender": "Female",
+      "results": [
+        {
+          "subject": "Mathematics",
+          "grade": "C",
+          "score": 75
+        },
+        {
+          "subject": "Science",
+          "grade": "B",
+          "score": 82
+        },
+        {
+          "subject": "English",
+          "grade": "B",
+          "score": 78
+        }
+      ]
+    }
+  ]
+}

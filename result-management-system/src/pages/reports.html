@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Reports</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Student Performance Reports</h1>
+        <nav>
+            <ul>
+                <li><a href="dashboard.html">Dashboard</a></li>
+                <li><a href="students.html">Students</a></li>
+                <li><a href="results.html">Results</a></li>
+                <li><a href="reports.html">Reports</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Generate Reports</h2>
+            <form id="report-form">
+                <label for="student-select">Select Student:</label>
+                <select id="student-select" name="student">
+                    <!-- Options will be populated dynamically -->
+                </select>
+                <label for="report-type">Select Report Type:</label>
+                <select id="report-type" name="report-type">
+                    <option value="grades">Grades</option>
+                    <option value="attendance">Attendance</option>
+                    <option value="performance">Performance</option>
+                </select>
+                <button type="submit">Generate Report</button>
+            </form>
+        </section>
+        <section id="report-output">
+            <h2>Report Output</h2>
+            <div id="report-content">
+                <!-- Report content will be displayed here -->
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Student Result Management System</p>
+    </footer>
+    <script src="../js/app.js"></script>
+</body>
+</html>
